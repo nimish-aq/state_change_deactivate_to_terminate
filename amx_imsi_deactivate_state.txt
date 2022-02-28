@@ -65,3 +65,27 @@
 2022-02-28 17:19:14,995 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220228114905187', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
 2022-02-28 17:19:17,346 - INFO : deactivated imsi: 420083821308288 terminated request status 200
 2022-02-28 17:19:17,346 - INFO : deactivated imsi: 420083821308288 terminated response data {'requestId': 'GCAPI20220228114916488', 'successEntries': [], 'asyncEntries': ['420083821308288'], 'failedEntries': []}
+2022-02-28 20:24:56,802 - INFO : my sql connection established
+2022-02-28 20:24:57,086 - INFO : Number of imsi : 3 deactivated for past 10 days
+2022-02-28 20:25:10,277 - INFO : deactivated imsi: 240271000670099 terminated request status 200
+2022-02-28 20:25:10,277 - INFO : deactivated imsi: 240271000670099 terminated response data {'requestId': 'GCAPI20220228145500416', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['240271000670099']}
+2022-02-28 20:25:20,990 - INFO : deactivated imsi: 724053841307790 terminated request status 200
+2022-02-28 20:25:20,991 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220228145511217', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-02-28 20:25:21,845 - ERROR : deactivated imsi: 420083821308288 terminated request status 200
+2022-02-28 20:25:21,847 - ERROR : deactivated imsi: 420083821308288 terminated response data {'requestId': 'GCAPI20220228145511217', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-02-28 20:26:40,543 - INFO : my sql connection established
+2022-02-28 20:26:40,794 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-02-28 20:26:53,031 - INFO : deactivated imsi: 240271000670099 terminated request status 200
+2022-02-28 20:26:53,032 - INFO : deactivated imsi: 240271000670099 terminated response data {'requestId': 'GCAPI20220228145643212', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['240271000670099']}
+2022-02-28 20:27:03,813 - INFO : deactivated imsi: 724053841307790 terminated request status 200
+2022-02-28 20:27:03,813 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220228145653984', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-02-28 20:27:04,614 - ERROR : deactivated imsi: 420083821308288 terminated request status 200
+2022-02-28 20:27:04,614 - ERROR : deactivated imsi: 420083821308288 terminated response data {'requestId': 'GCAPI20220228145653984', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-02-28 20:44:02,393 - INFO : my sql connection established
+2022-02-28 20:44:02,664 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-02-28 20:44:15,546 - INFO : deactivated imsi: 240271000670099 terminated request status 200
+2022-02-28 20:44:15,547 - INFO : deactivated imsi: 240271000670099 terminated response data {'requestId': 'GCAPI20220228151405756', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['240271000670099']}
+2022-02-28 20:44:26,482 - INFO : deactivated imsi: 724053841307790 terminated request status 200
+2022-02-28 20:44:26,482 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220228151416482', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-02-28 20:44:27,397 - ERROR : deactivated imsi: 420083821308288 terminated request status None
+2022-02-28 20:44:27,397 - ERROR : deactivated imsi: 420083821308288 terminated response data None

@@ -65,6 +65,8 @@ for deactivated_imsi in data:
       "newState" : "Terminate"
         }
     try:
+       status =  None
+       content = None
        status, content = Imsi_state_change.sim_state_change(deactivated_imsi_data,token)
 
        logger.info("deactivated imsi: {} terminated request status {}".format(deactivated_imsi[0], status))
