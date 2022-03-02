@@ -8,7 +8,7 @@ Config file to store  DB, no_of_days, authorization api config and sim state cha
 
 
 
-no_of_days = 12
+no_of_days = 13
 
 # dev
 meta_db_configs = {

@@ -89,3 +89,53 @@
 2022-02-28 20:44:26,482 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220228151416482', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
 2022-02-28 20:44:27,397 - ERROR : deactivated imsi: 420083821308288 terminated request status None
 2022-02-28 20:44:27,397 - ERROR : deactivated imsi: 420083821308288 terminated response data None
+2022-03-01 09:56:43,114 - ERROR : my sql connection error
+2022-03-01 10:05:47,326 - INFO : my sql connection established
+2022-03-01 10:05:47,606 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:10:35,426 - INFO : my sql connection established
+2022-03-01 10:10:35,716 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:18:23,170 - INFO : my sql connection established
+2022-03-01 10:18:23,428 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:33:02,594 - INFO : my sql connection established
+2022-03-01 10:33:02,855 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:38:10,645 - INFO : my sql connection established
+2022-03-01 10:38:10,896 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:43:27,874 - INFO : my sql connection established
+2022-03-01 10:43:28,156 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:45:56,596 - INFO : my sql connection established
+2022-03-01 10:46:29,771 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:52:14,333 - INFO : my sql connection established
+2022-03-01 10:52:14,583 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 10:59:05,574 - INFO : my sql connection established
+2022-03-01 10:59:05,841 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 11:12:40,274 - INFO : my sql connection established
+2022-03-01 11:12:40,541 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 11:12:53,628 - INFO : deactivated imsi: 240271000670099 terminated request status 200
+2022-03-01 11:12:53,629 - INFO : deactivated imsi: 240271000670099 terminated response data {'requestId': 'GCAPI20220301054242967', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['240271000670099']}
+2022-03-01 11:13:04,790 - INFO : deactivated imsi: 724053841307790 terminated request status 200
+2022-03-01 11:13:04,790 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220301054254347', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-03-01 11:13:05,726 - ERROR : deactivated imsi: 420083821308288 terminated request status None
+2022-03-01 11:13:05,727 - ERROR : deactivated imsi: 420083821308288 terminated response data None
+2022-03-01 11:13:05,727 - ERROR : deactivated imsi: 420083821308288 request response error Expecting value: line 1 column 1 (char 0)
+2022-03-01 11:14:08,240 - INFO : my sql connection established
+2022-03-01 11:14:08,496 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 11:14:21,345 - INFO : deactivated imsi: 240271000670099 terminated request status 200
+2022-03-01 11:14:21,345 - INFO : deactivated imsi: 240271000670099 terminated response data {'requestId': 'GCAPI20220301054410649', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['240271000670099']}
+2022-03-01 11:14:32,218 - INFO : deactivated imsi: 724053841307790 terminated request status 200
+2022-03-01 11:14:32,218 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220301054421766', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-03-01 11:14:33,094 - ERROR : deactivated imsi: 420083821308288 terminated request status None
+2022-03-01 11:14:33,094 - ERROR : deactivated imsi: 420083821308288 terminated response data None
+2022-03-01 11:14:33,094 - ERROR : deactivated imsi: 420083821308288 request response error Expecting value: line 1 column 1 (char 0)
+2022-03-01 11:24:07,359 - INFO : my sql connection established
+2022-03-01 11:24:07,650 - INFO : Number of imsi : 3 deactivated for past 12 days
+2022-03-01 11:24:20,320 - INFO : deactivated imsi: 240271000670099 terminated request status 200
+2022-03-01 11:24:20,320 - INFO : deactivated imsi: 240271000670099 terminated response data {'requestId': 'GCAPI20220301055409909', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['240271000670099']}
+2022-03-01 11:24:31,466 - INFO : deactivated imsi: 724053841307790 terminated request status 200
+2022-03-01 11:24:31,467 - INFO : deactivated imsi: 724053841307790 terminated response data {'requestId': 'GCAPI20220301055420651', 'successEntries': [], 'asyncEntries': [], 'failedEntries': ['724053841307790']}
+2022-03-01 11:24:32,269 - ERROR : deactivated imsi: 420083821308288 terminated request status None
+2022-03-01 11:24:32,269 - ERROR : deactivated imsi: 420083821308288 terminated response data None
+2022-03-01 18:17:49,223 - ERROR : my sql connection error
+2022-03-01 18:25:36,429 - ERROR : my sql connection error
+2022-03-01 18:26:41,920 - ERROR : my sql connection error
+2022-03-01 18:28:41,561 - INFO : my sql connection established
+2022-03-01 18:28:42,057 - INFO : Number of imsi : 3 deactivated for past 13 days

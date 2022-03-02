@@ -40,7 +40,13 @@ def mysql_connection():
 db = mysql_connection()
 cursor = db.cursor()
 
-q = "SELECT IMSI FROM assets WHERE DATE(STATE_MODIFIED_DATE)<= DATE_SUB(DATE(NOW()),INTERVAL %s DAY) AND STATE='Deactivated';"%(no_of_days)
+q = "SELECT t1.IMSI FROM assets t1 \
+LEFT JOIN (SELECT ASSET_ID, MAX(ID) AS maxID \
+FROM extended_audit_log \
+GROUP BY ASSET_ID \
+) t2a ON t1.ID = t2a.ASSET_ID \
+LEFT JOIN extended_audit_log t2b ON t2a.ASSET_ID = t2b.ASSET_ID AND t2a.maxID = t2b.ID \
+WHERE DATE(t2b.CREATE_DATE) <= DATE_SUB(DATE(NOW()),INTERVAL %s DAY) AND t1.STATE='Deactivated' AND t2b.ATTRIBUTE='SIM_STATUS';"%(no_of_days)
 
 try:
     cursor.execute(q)
@@ -64,6 +70,8 @@ for deactivated_imsi in data:
      "imsi" : [deactivated_imsi[0]],
       "newState" : "Terminate"
         }
+    print(deactivated_imsi_data)
+
     try:
        status =  None
        content = None
@@ -74,6 +82,7 @@ for deactivated_imsi in data:
     except Exception as e:
        logger.error("deactivated imsi: {} terminated request status {}".format(deactivated_imsi[0], status))
        logger.error("deactivated imsi: {} terminated response data {}".format(deactivated_imsi[0], content))
+       #logger.error("deactivated imsi: {} request response error {}".format(deactivated_imsi[0],e))
        print(e)
 
 

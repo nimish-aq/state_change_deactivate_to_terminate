@@ -8,8 +8,8 @@ import requests
 from config import auth_api_config, action_api_config
 import json
 import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 class api_call:
@@ -27,11 +27,12 @@ class api_call:
                }
         header ={'Content-Type': 'application/json'}
         #print(auth_api_config['authentication_api_url'])
+
         response = requests.post(auth_api_config['authentication_api_url'],
                                  headers=header,
                                  data = json.dumps(data),
                                  verify=False)
-        #print(response.status_code)
+
         if response.status_code == 200:
             auth_resp = json.loads(response.content)
             token = auth_resp["token"]
